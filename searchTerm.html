@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="base.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+    <!-- Header -->
+
+    <header>
+
+           <!-- Navbar -->
+
+           <div class="navbar">
+
+            <div class="navbarLeft">
+                <div class="navbarLeft-detail" id='navbarLeft-detail_Home'>
+                    <i class="fas fa-film"></i>
+                    <p>Trang chủ</p>
+
+                </div>
+
+                <div class="navbarLeft-detail" id='navbarLeft-detail_Search'>
+                    <i class="fas fa-search"></i>
+                    <p>Tìm kiếm phim</p>
+                </div>
+
+
+                <div class="navbarLeft-detail">
+                    <i class="fas fa-graduation-cap"></i>
+                    <p>Học qua phim</p>
+                </div>
+            </div>
+
+
+            <!-- <div class="navbarRight"> -->
+                
+                <div class="navbarRight_signupAndLogin">
+                    <div class='navbarRight_signup'>Đăng ký</div>
+                    <div class='navbarRight_login'>Đăng nhập</div>
+                </div>
+
+                <div class="navbarRight_accountAndLogout">
+                    <div class='navbarRight_account'>Account</div>
+                    <div class='navbarRight_logout'>Log out</div>
+                </div>
+
+            <!-- </div> -->
+
+        </div>
+
+
+
+
+        <!-- Search Box -->
+
+        <div class='search'>
+            <div class='search-box'>
+                <input id='search_input' type="string" placeholder="Nhập tên phim">
+                <button id='search_btn'>Tìm kiếm </button>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- BODY -->
+
+    <div id='bodyWrapper'>
+        <!-- <div class = 'bodyItem'>
+            <img class='bodyItem_img' src="" alt="">
+            <h3 class='bodyItem_eTitle'></h3>
+            <p class='bodyItem_vTitle'></p>
+
+        </div> -->
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- FB -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+
+
+
+    <script src='./FB.js' type='module'></script>
+    <script src='searchTerm.js' type='module'></script>
+
+</body>
+
+</html>

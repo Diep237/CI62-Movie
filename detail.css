@@ -1,0 +1,379 @@
+*{
+    margin:0;
+    padding:0;
+ 
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.navbar{
+width:100%;
+height: 8%;
+
+display: flex;
+align-items: center;
+position:fixed;
+z-index: 1;
+background-color: white;
+border-bottom: solid 1.5px rgb(214, 214, 214);
+
+}
+
+.navbarLeft{
+    display: flex;
+    margin-left: 2%;
+ 
+}
+
+.navbarLeft-detail{
+
+    display: flex;
+    padding: 10px;
+}
+
+
+.navbarLeft-detail i{
+    color: rgb(119,119,119);
+}
+.navbarLeft-detail p{
+    margin-left: 3px;
+    font-size: 0.9rem;
+    color: rgb(119,119,119);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#navbarLeft-detail_Home{
+    cursor: pointer;
+}
+
+#navbarLeft-detail_Search{
+    cursor: pointer;
+}
+
+.navbarRight{
+   
+    display: flex;
+    position: absolute;
+    right: 0px;
+    margin-right:50px;
+}
+
+.navbarRight div{
+    padding: 10px;
+    font-size: 0.9rem;
+    color: rgb(119,119,119);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* BODY */
+
+.body-box{
+    display:grid;
+    grid-template-columns: 1fr 1.8fr 1.2fr;
+    padding-top:70px;
+    /* background-color: blue; */
+    
+}
+
+
+/* Body left */
+
+.body-box-left{
+    margin-left:5%;
+    position: relative;
+    display: flex;
+    background-color: aquamarine;
+    height:30vh;
+    cursor: pointer;
+}
+#body-box-left_img{
+    width:100%;
+    height: inherit;
+    position: absolute;
+    
+}
+
+#body-box-left_overlay{
+    width:100%;
+    height: inherit;
+    position: absolute;
+    background-color: black;
+    display: none;
+    
+}
+
+
+#body-box-left_playIcon{
+height:60px;
+width:60px;
+margin: auto;
+left: 0;
+right: 0;
+opacity: 0.6;
+align-items:center;
+}
+
+
+/* Body center */
+.body-box-center{
+    margin-left: 20px;
+}
+.body-box-center-title h3{
+    color:var(--colorBase);
+    
+}
+
+.body-box-center-title p{
+    color:rgb(119,119,119);
+    margin-top:10px;
+}
+
+.body-box-center_Intro{
+    border-bottom: solid 1px rgb(227,227,227);
+    margin-top:100px;
+    padding-bottom: 10px;
+}
+
+
+.body-box-center-content_description{
+    margin-top:10px;
+    color: rgb(48,48,48);
+    line-height: 25px
+}
+
+
+/* Nation, Actors */
+.body-box-center-content-Info{
+    display: flex;
+    margin-top:10px;
+    height:22px;
+    color: rgb(48,48,48);
+}
+.body-box-center-content-Info label{
+    font-weight: bold;
+
+}
+
+
+.body-box-center-content-Info p{
+    margin-left:10px;
+    color:rgb(26, 106, 177)
+}
+
+
+
+
+/* COMMENT BOX */
+.comment{
+    margin-top:50px;
+    position: relative;
+  
+  
+   
+}
+.comment_binhLuan{
+    color: rgb(66,139,202);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.comment-box{
+    margin-top:25px;
+    display: flex;
+    height:45px;
+}
+
+
+.comment-box img{
+   height: inherit;
+   border-radius: 2px;
+}
+
+.comment input{
+  
+    width: 90%;
+    margin-left: 2%;
+    padding-left:15px;
+    outline: none;
+   
+}
+
+.comment_btn{
+   position: absolute;
+   right:0;
+   margin-top:2%;
+   background-color:rgb(68,162,217) ;
+   color: white;
+ height:25px;
+ width:80px;
+   border:none;
+   border-radius: 5px;
+   border: 0.5px solid rgb(0, 136, 134)
+
+    
+   
+}
+
+.userComment{
+    margin-top:10vh;
+    display: flex;
+    /* background-color: blue; */
+    font-family: 'Nunito', sans-serif;
+    color: rgb(48,48,48);
+    font-size: 15px;
+   
+     
+
+    
+}
+.userComment_image img{
+    height:45px;
+
+}
+
+.userComment_cmt{
+    margin-left:10px
+}
+
+.userComment_cmt p{
+  margin-top: 5px;
+}
+
+
+.ellipsis{
+    position: relative;
+    margin-left: auto;
+    font-size: 15px;
+ 
+   
+   
+}
+
+.ellipsis i{
+    color: rgb(88, 87, 87); 
+  /* display: none; */
+ 
+}
+.fas.fa-ellipsis-v{
+    width: 30px;
+    height:20px;
+    /* background-color: blue; */
+    position:absolute;
+    padding-left:20px;
+  left:-30px;
+  cursor: pointer;
+
+}
+
+
+.ellipsis-option{
+    position:absolute;
+    width:150px;
+    /* top của thẻ cha */
+    margin-top:20px;
+    border-bottom: solid 0.5px rgb(161, 161, 161) ;
+    box-shadow: rgba(0, 0, 0.15, 0.20) -1.95px 2px 2.6px ;
+    border-radius: 5px;
+    color: rgb(88, 87, 87);
+    cursor: pointer;
+    background-color: rgb(255,255,255);
+    display: none;
+}
+
+.ellipsis-option_edit{
+    
+    padding: 10px 0 8px 15px;
+   display: flex;
+
+    
+}
+
+.ellipsis-option_edit:hover{
+    background-color: rgb(229,229,229)
+}
+
+
+.ellipsis-option_edit p{
+    padding-left: 15px;
+   
+}
+
+.ellipsis-option_edit i{
+    color: rgb(144,144,144);
+    
+}
+
+/* Delete */
+.ellipsis-option_delete{
+    padding: 8px 0 8px 15px;
+    display: flex;
+
+}
+.ellipsis-option_delete:hover{
+    background-color: rgb(229,229,229)
+}
+.ellipsis-option_delete p{
+    padding-left: 15px;
+    
+}
+.ellipsis-option_delete i{
+    color: rgb(144,144,144);
+    
+}
+
+
+/* Report */
+.ellipsis-option_report{
+    padding: 8px 0 10px 15px;
+    display: flex;
+
+}
+.ellipsis-option_report:hover{
+    background-color: rgb(229,229,229)
+}
+.ellipsis-option_report p{
+    padding-left: 15px;
+    
+}
+.ellipsis-option_report i{
+    color: rgb(144,144,144);
+    
+}
+
+
+
+/* Footer */
+
+.foot{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10% 5% 5% 2%;
+    column-gap: 50px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(90, 90, 90);
+}
+
+
+.footer1{
+    line-height: 25px;
+}
+
+.footer-head{
+    font-weight: bolder;
+}
+.footer-content{
+    display: flex;
+    border-bottom:dotted 0.5px;
+    padding: 3% 0 3% 0;
+}
+
+
+

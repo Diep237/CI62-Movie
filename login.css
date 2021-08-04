@@ -1,0 +1,291 @@
+
+
+
+
+
+
+
+
+.signupAndLogin-Container{
+  
+    
+    position: absolute;
+    background-color: white;
+    display:flex;
+    width: 100%;
+    height:100%;
+    border-radius: 15px;
+    overflow: hidden;
+
+  
+}
+
+.login-pic{
+   
+    /* width:320px; */
+    width:50%;
+    height:inherit; 
+    background: violet;
+    position:absolute;
+     /* display: none; */
+ }
+
+.login-pic img{
+ 
+    width:101%;
+    height:101%;;
+    z-index: 3;
+    
+}
+ 
+
+
+/* LOGIN FORM */
+
+.loginForm{
+    width:50%;
+  
+    
+}
+
+
+.loginForm-content{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+ 
+}
+
+
+.loginForm-content h1{
+    color:rgb(64,65,71) ;
+    font-size: 30px;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:20px;
+ 
+}
+
+
+
+.loginForm-content ::placeholder{
+    color:rgb(173, 172, 172);
+    font-weight: 10px;
+}
+
+
+.loginForm-content-div{
+    margin:auto;
+    margin-bottom: 2px;
+    font-size: 13px;
+    color: rgb(99,98,101);
+    font-size: 13px;
+}
+
+
+
+.loginForm-content-div input{
+    width:250px;
+    height:25px;
+    border:none;
+    /* border-bottom: rgb(197, 197, 197); */
+    outline: none;
+    border-bottom: 1.9px solid rgb(217,217,217);
+    margin-bottom: 5px; 
+
+}
+
+
+
+.login-noti{
+        width:250px;
+        height:10px;
+        display: flex;
+        justify-content: flex-end;
+        color:red;
+        margin:auto;
+        font-size: 13px;
+ }
+    
+
+
+.loginForm-login{
+    display:flex;
+    color:rgb(138, 138, 138);
+    font-size: 13px;
+    width:250px;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+.loginForm-login-p2{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.loginForm-login-p2:hover{
+    color:rgb(221, 42, 123);
+    font-weight: bolder;
+}
+
+
+
+
+
+.loginForm-btn{
+
+    width:250px;
+    height:35px;
+   
+    
+    margin: 50px auto 30px auto;
+    border: none;
+    border-radius: 40px;
+    font-weight: bolder;
+    
+    color: white;
+    background: -webkit-linear-gradient(45deg,rgb(245, 133, 41),rgb(221, 42, 123),rgb(129, 52, 175));
+    cursor: pointer;
+  
+
+    }
+   
+    
+.loginForm-btn:hover{
+    color: rgb(221, 42, 123);
+    background: #fff;
+    border: 1px solid rgb(221, 42, 123);
+
+}
+
+.loginForm-content-option{
+    margin-top: -10px;
+    text-align: center;
+    padding-bottom: 15px;
+    color:rgb(138, 138, 138);
+  
+   font-size: 13px;
+}
+
+
+
+
+
+
+/* SIGNUP */
+
+.signupForm{
+    width:50%;
+    /* position:absolute; */
+    background: white;
+    height:450px;
+    
+}
+
+.signupForm-content{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+}
+
+
+.signupForm-content h1{
+    color:rgb(64,65,71) ;
+ font-size: 30px;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+
+
+
+.signupForm-content ::placeholder{
+    color:rgb(173, 172, 172);
+    font-weight: 10px;
+}
+
+.signupForm-content-div{
+    margin:auto;
+}
+
+.signupForm-content-div p{
+    margin:auto;
+    color: rgb(99,98,101);
+}
+
+
+.signupForm-content-div input{
+    width:250px;
+    height:25px;
+    border:none;
+    /* border-bottom: rgb(197, 197, 197); */
+    outline: none;
+    border-bottom: 1.9px solid rgb(217,217,217);
+    margin-bottom: 5px; 
+}
+
+
+
+
+.signup-noti{
+    width:250px;
+    height:10px;
+    display: flex;
+    justify-content: flex-end;
+    color:red;
+    margin:auto;
+  
+}
+
+
+
+
+
+
+
+.signupForm-login{
+    display:flex;
+    color:rgb(138, 138, 138);
+    font-size: 13px;
+    width:250px;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+
+.signupForm-login-p2{
+    padding-left: 10px;
+    cursor: pointer;
+    
+}
+
+.signupForm-login-p2:hover{
+    font-weight: bolder;
+    color:rgb(63,105,225);
+}
+
+.signupForm-btn{
+    width:250px;
+    height:35px;
+    margin: 50px auto 30px auto;
+    border: none;
+    border-radius: 40px;
+    font-weight: bolder;
+    color: white;
+    background: -webkit-linear-gradient(30deg,rgb(78,169,222),rgb(156,93,223),rgb(238,80,154));
+    /* background: -webkit-linear-gradient(25deg,rgb(163,104,191),rgb(94,123,198),rgb(52,134,203)); */
+    cursor: pointer;
+  
+}
+.signupForm-btn:hover{
+    color:rgb(63,105,225);
+    border: 1px solid rgb(63,105,225);
+    background: white;
+}
+
+
+
